@@ -49,6 +49,7 @@ console.log({carro1, carro2})
 //         case '+':
 //             let soma = 0
 //             for(let o of operandos) soma += o
+//             for(let o of operandos) soma += o
 //             return soma
 //         case '*':
 //             let produto = 1
@@ -59,6 +60,7 @@ console.log({carro1, carro2})
 
 // console.log(calcular('+', 1, 2, 3, 4))
 // console.log(calcular('*', 1, 2, 3, 4))
+
 
 // Usando espalhamento para concatenação de vetores
 let hortalicas = ['alface', 'beterraba', 'cenoura', 'chuchu']
