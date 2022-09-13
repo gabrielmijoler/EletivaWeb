@@ -4,7 +4,7 @@ export default function init(){
         <div>
             <Tabuleiro />
             <h1>Outro Tabuleiro</h1>
-            <Tabuleiro dimensao={12}/>
+            <Tabuleiro />
         </div>
     )    
 }
