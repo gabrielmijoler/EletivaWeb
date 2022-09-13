@@ -1,22 +1,23 @@
 import Linha from "./Linha"
 
 export default function Tabuleiro(props){
+
     for(let i=0; i<=props; i++){
-        props.push(el,i =>{
-        <Linha key={el.i}>{el.preto} {!el.preto}</Linha>
+        dimensao.map(el =>{
+            <div key={el.props}>{el.props ? true : false } </div>
         })
     }
     
     return(
         <>
-            <Linha preto={props.preto}/>
-            <Linha preto={!props.preto}/>
-            <Linha preto={props.preto}/>
-            <Linha preto={!props.preto}/>
-            <Linha preto={props.preto}/>
-            <Linha preto={!props.preto}/>
-            <Linha preto={props.preto}/>
-            <Linha preto={!props.preto}/>
+            <Linha preto={true}/>
+            <Linha preto={false}/>
+            <Linha preto={true}/>
+            <Linha preto={false}/>
+            <Linha preto={true}/>
+            <Linha preto={false}/>
+            <Linha preto={true}/>
+            <Linha preto={false}/>
         </>
     )    
 }
