@@ -6,17 +6,16 @@ import Celula from './Celula'
 // caso contrario a primeira celula deve ser pintada de branco
 
 export default function Linha(props){
-    return(
-            <div className={styles.lin}>
-                    <Celula preto={props.preto}/>
-                    <Celula preto={!props.preto}/>
-                    <Celula preto={props.preto}/>
-                    <Celula preto={!props.preto}/>      
-                    <Celula preto={props.preto}/>
-                    <Celula preto={!props.preto}/>
-                    <Celula preto={props.preto}/>
-                    <Celula preto={!props.preto}/>
-            </div>
-        
-    )
+                let lista =[]
+                let aux = props.preto
+                for(let i=1; i<=props.dimensao; i++){
+                    lista.push(<Celula preto={aux}/>)
+                    aux = !aux
+                }
+        return(
+                <div className={styles.lin}>
+                        {lista}
+                </div>
+        )
+
 }
