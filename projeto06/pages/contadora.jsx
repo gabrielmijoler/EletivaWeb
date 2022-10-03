@@ -25,6 +25,13 @@ export default function init(props){
                 
                 {/* <button onClick={()=>setValor(valor+1)}>+</button> */}
             </div>
+            <Display numero={valor}/>
+            <div>
+                <button onClick={subtrai}>-</button>
+                <button onClick={soma}>+</button>
+                
+                {/* <button onClick={()=>setValor(valor+1)}>+</button> */}
+            </div>
         </div>
     )
 }
