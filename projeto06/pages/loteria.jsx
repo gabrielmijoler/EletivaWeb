@@ -31,7 +31,8 @@ export default function init(){
             flexDirection:"column",
             alignItems:"center",
             justifyContent:"center",
-            height:"100vh"
+            height:"100vh",
+            backgroundColor:"white"
             }}>
             <div style={{
             display:"flex",
