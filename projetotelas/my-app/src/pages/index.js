@@ -10,8 +10,6 @@ export default function Home() {
   return (
     <Layout titulo="Pagina Inicial" subtitulo="Teste da pagina inicial">
       <p>Teste de conteudo para pagina</p>
-      <input></input>
-
     </Layout>
   )
 }

@@ -6,7 +6,7 @@ import {IconAdjust} from "../icons/index"
 export default function MenuLateral(){
     return (
         <aside>
-            <div className='w-20 h-20 bg-gradient-to-r from-indigo-500 to-purple-300 flex flex-col item-center justify-center'>
+            <div className='h-20 w-20 bg-gradient-to-r from-indigo-500 to-purple-300 flex flex-col items-center justify-center'>
                 Logo
             </div>
             <ul>
